@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mm3-Hi-Wyq">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="8qj-X0-ZJr">
+            <objects>
+                <viewController id="Mm3-Hi-Wyq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U3Q-sT-kFJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nsc-nV-QVv">
+                                <rect key="frame" x="0.0" y="728" width="375" height="50"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="0LS-3A-rHQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Kd-g9-hih">
+                                                <rect key="frame" x="0.0" y="0.0" width="56.666666666666664" height="50"/>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4G-LX-ndD">
+                                                <rect key="frame" x="79.666666666666671" y="0.0" width="56.666666666666671" height="50"/>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZ5-bh-Hph">
+                                                <rect key="frame" x="159.33333333333334" y="0.0" width="56.333333333333343" height="50"/>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xlp-Et-Qhi">
+                                                <rect key="frame" x="238.66666666666666" y="0.0" width="56.666666666666657" height="50"/>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZl-wA-qvC">
+                                                <rect key="frame" x="318.33333333333331" y="0.0" width="56.666666666666686" height="50"/>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.34509803919999998" green="0.56470588239999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="0LS-3A-rHQ" secondAttribute="bottom" id="54d-Ym-aBH"/>
+                                    <constraint firstItem="0LS-3A-rHQ" firstAttribute="top" secondItem="nsc-nV-QVv" secondAttribute="top" id="Jej-LA-QVO"/>
+                                    <constraint firstAttribute="trailing" secondItem="0LS-3A-rHQ" secondAttribute="trailing" id="KBR-2r-hTc"/>
+                                    <constraint firstAttribute="height" constant="50" id="VGg-7z-XBa"/>
+                                    <constraint firstItem="0LS-3A-rHQ" firstAttribute="leading" secondItem="nsc-nV-QVv" secondAttribute="leading" id="WUP-2a-lux"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TSi-hL-j8K" firstAttribute="bottom" secondItem="nsc-nV-QVv" secondAttribute="bottom" id="18y-q0-N9d"/>
+                            <constraint firstItem="TSi-hL-j8K" firstAttribute="trailing" secondItem="nsc-nV-QVv" secondAttribute="trailing" id="BIK-EL-7YO"/>
+                            <constraint firstItem="nsc-nV-QVv" firstAttribute="leading" secondItem="TSi-hL-j8K" secondAttribute="leading" id="uF6-3g-bmG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TSi-hL-j8K"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0pb-aU-I9k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="462" y="-106"/>
+        </scene>
+    </scenes>
+</document>
